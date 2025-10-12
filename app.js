@@ -21,8 +21,7 @@ sum(5,10);
 sum(20,30);
 
 
-// var fs = require('fs');
-// fs.writeFileSync('output.txt','Hello My name is Niraj');
+
 
 
 // var a=10;
