@@ -9,9 +9,6 @@ if (process.env.NODE_ENV === 'production') {
   s = require('./cjs/react-dom-server.node.development.js');
 }
 
-exports.version = l.version;
-exports.renderToString = l.renderToString;
-exports.renderToStaticMarkup = l.renderToStaticMarkup;
 exports.renderToPipeableStream = s.renderToPipeableStream;
 exports.renderToReadableStream = s.renderToReadableStream;
 exports.resumeToPipeableStream = s.resumeToPipeableStream;
