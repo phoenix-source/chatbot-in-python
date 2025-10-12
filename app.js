@@ -3,22 +3,22 @@
 
 const { use } = require("react");
 
-// console.log("5"+1);
+console.log("5"+1);
 
-// function fruit(item){
-//     console.log("fruit is "+ item);
-// }
+function fruit(item){
+    console.log("fruit is "+ item);
+}
 
-// fruit("apple");
-// fruit("banana");
-// fruit("grape");
+fruit("apple");
+fruit("banana");
+fruit("grape");
 
 
-// function sum(a,b){
-//     console.log("sum is "+ (a+b));
-// }
-// sum(5,10);
-// sum(20,30);
+function sum(a,b){
+    console.log("sum is "+ (a+b));
+}
+sum(5,10);
+sum(20,30);
 
 
 // var fs = require('fs');
